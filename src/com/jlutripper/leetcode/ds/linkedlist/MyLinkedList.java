@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.linkedlist;
+package com.jlutripper.leetcode.ds.linkedlist;
 
 public class MyLinkedList {
     private int size;
