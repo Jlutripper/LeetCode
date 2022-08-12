@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.hash;
+package com.jlutripper.leetcode.ds.hash;
 import java.util.*;
 public class CanConstruct {
     public boolean canConstruct(String a, String b){

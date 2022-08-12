@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.array;
+package com.jlutripper.leetcode.ds.array;
 import java.util.Arrays;
 
 public class MinSubArrayLen {

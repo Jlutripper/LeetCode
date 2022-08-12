@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.hash;
+package com.jlutripper.leetcode.ds.hash;
 
 import java.util.HashMap;
 import java.util.Map;

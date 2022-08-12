@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.array;
+package com.jlutripper.leetcode.ds.array;
 
 public class GenerateMatrix {
     public int[][] generateMatrix(int n) {

@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.linkedlist;
+package com.jlutripper.leetcode.ds.linkedlist;
 
 public class Node {
     public int val;
@@ -10,7 +10,6 @@ public class Node {
     }
 
     boolean hasNext(){
-        if(this.next==null) return false;
-        else return true;
+        return this.next != null;
     }
 }

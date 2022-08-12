@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.hash;
+package com.jlutripper.leetcode.ds.hash;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -23,7 +23,7 @@ public class Hash{
     }
 
     public void  isHappy(){
-        Set set = new HashSet();
+        HashSet set = new HashSet();
         Object a = new Object();
         set.contains(a);
     }

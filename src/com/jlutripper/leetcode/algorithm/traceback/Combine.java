@@ -1,4 +1,4 @@
-package com.jlutripper.leetcode.traceback;
+package com.jlutripper.leetcode.algorithm.traceback;
 
 import java.util.ArrayList;
 import java.util.List;

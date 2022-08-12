@@ -1,13 +1,12 @@
-package com.jlutripper.leetcode.lcstring;
+package com.jlutripper.leetcode.ds.string;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ReverseStr {
     public void reverseStr(String s, int k) {
         char[] a = s.toCharArray();
-        List tmp = new ArrayList<>();
+        List<Character> tmp = new ArrayList<>();
         for(char i : a){
             tmp.add(i);
         }
