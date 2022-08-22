@@ -10,23 +10,11 @@ import java.util.Arrays;
  */
 
 public class Test {
-    private final int[] a;
-
-    public Test(int[] a) {
-        this.a = a;
-    }
-
-    public void test(){
-        for(int i=0;i<a.length;i++){
-            a[i]+=1;
-        }
-    }
 
 
     public static void main(String[] args) {
-        int[] a = {1,2,3};
-        new Test(a).test();
-        System.out.println(Arrays.toString(a));
+        StringBuffer sb = new StringBuffer("123");
+        System.out.println(sb.reverse());
     }
 }
 
