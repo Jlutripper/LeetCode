@@ -29,10 +29,11 @@ public class TreeNode {
 
     private TreeNode buildTreeByArr(int[] a, int i){
         if(i>=a.length) return null;
-        TreeNode root = new TreeNode(a[i]);
-        root.left = buildTreeByArr(a,2*i+1);
-        root.right = buildTreeByArr(a,2*i+2);
-
+        TreeNode root = a[i] != 0 ? new TreeNode(a[i]) : null;
+        if(root!=null){
+            root.left = buildTreeByArr(a,2*i+1);
+            root.right = buildTreeByArr(a,2*i+2);
+        }
         return root;
     }
 
