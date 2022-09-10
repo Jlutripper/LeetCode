@@ -2,8 +2,8 @@ package com.jlutripper.leetcode.ds.linkedlist;
 
 import com.jlutripper.leetcode.tools.ListNode;
 
-/**
- * @ClassName: 剑指 Offer II 077. 链表排序
+/*
+  @ClassName: 剑指 Offer II 077. 链表排序
  * @Description:
  * @Auther: Jlutripper
  * @Date: 2022/8/16 17:19

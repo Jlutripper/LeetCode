@@ -55,7 +55,7 @@ public class Meituan {
     }
 
     public static void trackBack(int n, List<List<Integer>> ans, List<Integer> temp, int a){
-        if(a==n) ans.add(new ArrayList<Integer>(temp));
+        if(a==n) ans.add(new ArrayList<>(temp));
         for(int i = a;i<n;i++){
             Collections.swap(temp,a,i);
             trackBack(n,ans,temp,a+1);
@@ -64,9 +64,7 @@ public class Meituan {
     }
 
     public static void main(String[] args) {
-        for(List<Integer> i : getPermute(2)){
-            for(int j : i) System.out.print(i);
-        }
+
     }
 
     public void solution3() {
@@ -119,7 +117,7 @@ public class Meituan {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int opt[] = new int[m];
+        int[] opt = new int[m];
         for (int i = 0; i < m; i++) opt[i] = sc.nextInt();
         Deque<Integer> deque = new LinkedList<>();
         for(int i=1;i<=n;i++) deque.offer(i);
